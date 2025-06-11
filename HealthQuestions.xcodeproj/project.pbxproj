@@ -11,6 +11,28 @@
 		FC8DF9D62DEF0FF100ECBDA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9D52DEF0FF100ECBDA9 /* ContentView.swift */; };
 		FC8DF9D82DEF0FF300ECBDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8DF9D72DEF0FF300ECBDA9 /* Assets.xcassets */; };
 		FC8DF9DC2DEF0FF300ECBDA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8DF9DB2DEF0FF300ECBDA9 /* Preview Assets.xcassets */; };
+		FC8DF9E62DEF1AA900ECBDA9 /* QuoteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9E52DEF1AA900ECBDA9 /* QuoteClient.swift */; };
+		FC8DF9EB2DEF1B9E00ECBDA9 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9EA2DEF1B9E00ECBDA9 /* QuoteModel.swift */; };
+		FC8DF9F02DEF438900ECBDA9 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9EF2DEF438900ECBDA9 /* QuoteViewModel.swift */; };
+		FC8DF9F32DEF527600ECBDA9 /* QuoteHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9F22DEF527600ECBDA9 /* QuoteHorizontalScrollView.swift */; };
+		FC8DF9F62DF0514F00ECBDA9 /* QuickLinksHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9F52DF0514F00ECBDA9 /* QuickLinksHorizontalView.swift */; };
+		FC8DF9FA2DF0594000ECBDA9 /* QuestionnaireStartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9F92DF0594000ECBDA9 /* QuestionnaireStartScreen.swift */; };
+		FC8DF9FC2DF0681900ECBDA9 /* MoodQuestionnaireScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9FB2DF0681900ECBDA9 /* MoodQuestionnaireScreen.swift */; };
+		FC8DF9FF2DF06C5A00ECBDA9 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DF9FE2DF06C5A00ECBDA9 /* CoreDataProvider.swift */; };
+		FC8DFA022DF080C900ECBDA9 /* AppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA002DF080C900ECBDA9 /* AppModel.xcdatamodeld */; };
+		FC8DFA052DF08D3000ECBDA9 /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA042DF08D3000ECBDA9 /* QuestionnaireViewModel.swift */; };
+		FC8DFA082DF08DD200ECBDA9 /* Questionnaire+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA072DF08DD200ECBDA9 /* Questionnaire+Extensions.swift */; };
+		FC8DFA0B2DF1493900ECBDA9 /* QuestionnaireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA0A2DF1493900ECBDA9 /* QuestionnaireModel.swift */; };
+		FC8DFA152DF2475700ECBDA9 /* AnxietyQuestionnaireScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA142DF2475700ECBDA9 /* AnxietyQuestionnaireScreen.swift */; };
+		FC8DFA172DF2723C00ECBDA9 /* SleepQuestionnaireScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA162DF2723C00ECBDA9 /* SleepQuestionnaireScreen.swift */; };
+		FC8DFA192DF2BB5300ECBDA9 /* SafetyQuestionnaireScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA182DF2BB5300ECBDA9 /* SafetyQuestionnaireScreen.swift */; };
+		FC8DFA1E2DF48D2C00ECBDA9 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8DFA1D2DF48D2C00ECBDA9 /* Screens.swift */; };
+		FC93CDA12DF5847F00ACDC0F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC93CDA02DF5847F00ACDC0F /* Launch Screen.storyboard */; };
+		FC93CDA52DF5964000ACDC0F /* InsightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93CDA42DF5964000ACDC0F /* InsightsModel.swift */; };
+		FC93CDA82DF596BD00ACDC0F /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93CDA72DF596BD00ACDC0F /* InsightsViewModel.swift */; };
+		FC93CDAB2DF5D84F00ACDC0F /* CombinedInsightsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93CDAA2DF5D84F00ACDC0F /* CombinedInsightsChartView.swift */; };
+		FC93CDAD2DF8187300ACDC0F /* InsightsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93CDAC2DF8187300ACDC0F /* InsightsScreen.swift */; };
+		FC93CDAF2DF9414800ACDC0F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93CDAE2DF9414800ACDC0F /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +42,30 @@
 		FC8DF9D72DEF0FF300ECBDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8DF9D92DEF0FF300ECBDA9 /* HealthQuestions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthQuestions.entitlements; sourceTree = "<group>"; };
 		FC8DF9DB2DEF0FF300ECBDA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC8DF9E52DEF1AA900ECBDA9 /* QuoteClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteClient.swift; sourceTree = "<group>"; };
+		FC8DF9EA2DEF1B9E00ECBDA9 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		FC8DF9ED2DEF343200ECBDA9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		FC8DF9EF2DEF438900ECBDA9 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		FC8DF9F22DEF527600ECBDA9 /* QuoteHorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHorizontalScrollView.swift; sourceTree = "<group>"; };
+		FC8DF9F52DF0514F00ECBDA9 /* QuickLinksHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksHorizontalView.swift; sourceTree = "<group>"; };
+		FC8DF9F92DF0594000ECBDA9 /* QuestionnaireStartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireStartScreen.swift; sourceTree = "<group>"; };
+		FC8DF9FB2DF0681900ECBDA9 /* MoodQuestionnaireScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodQuestionnaireScreen.swift; sourceTree = "<group>"; };
+		FC8DF9FE2DF06C5A00ECBDA9 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		FC8DFA012DF080C900ECBDA9 /* AppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppModel.xcdatamodel; sourceTree = "<group>"; };
+		FC8DFA042DF08D3000ECBDA9 /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		FC8DFA072DF08DD200ECBDA9 /* Questionnaire+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Questionnaire+Extensions.swift"; sourceTree = "<group>"; };
+		FC8DFA0A2DF1493900ECBDA9 /* QuestionnaireModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireModel.swift; sourceTree = "<group>"; };
+		FC8DFA142DF2475700ECBDA9 /* AnxietyQuestionnaireScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyQuestionnaireScreen.swift; sourceTree = "<group>"; };
+		FC8DFA162DF2723C00ECBDA9 /* SleepQuestionnaireScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepQuestionnaireScreen.swift; sourceTree = "<group>"; };
+		FC8DFA182DF2BB5300ECBDA9 /* SafetyQuestionnaireScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyQuestionnaireScreen.swift; sourceTree = "<group>"; };
+		FC8DFA1D2DF48D2C00ECBDA9 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		FC93CDA02DF5847F00ACDC0F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FC93CDA42DF5964000ACDC0F /* InsightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsModel.swift; sourceTree = "<group>"; };
+		FC93CDA72DF596BD00ACDC0F /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
+		FC93CDAA2DF5D84F00ACDC0F /* CombinedInsightsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedInsightsChartView.swift; sourceTree = "<group>"; };
+		FC93CDAC2DF8187300ACDC0F /* InsightsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsScreen.swift; sourceTree = "<group>"; };
+		FC93CDAE2DF9414800ACDC0F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		FC93CDB02DF9A0D900ACDC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +98,18 @@
 		FC8DF9D22DEF0FF100ECBDA9 /* HealthQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				FC93CDB02DF9A0D900ACDC0F /* Info.plist */,
+				FC8DFA062DF08DBD00ECBDA9 /* Extensions */,
+				FC8DF9EC2DEF340A00ECBDA9 /* Config */,
+				FC8DF9E72DEF1B5300ECBDA9 /* Features */,
+				FC8DF9E22DEF1A8300ECBDA9 /* Core */,
 				FC8DF9D32DEF0FF100ECBDA9 /* HealthQuestionsApp.swift */,
 				FC8DF9D52DEF0FF100ECBDA9 /* ContentView.swift */,
 				FC8DF9D72DEF0FF300ECBDA9 /* Assets.xcassets */,
 				FC8DF9D92DEF0FF300ECBDA9 /* HealthQuestions.entitlements */,
 				FC8DF9DA2DEF0FF300ECBDA9 /* Preview Content */,
+				FC8DFA002DF080C900ECBDA9 /* AppModel.xcdatamodeld */,
+				FC93CDA02DF5847F00ACDC0F /* Launch Screen.storyboard */,
 			);
 			path = HealthQuestions;
 			sourceTree = "<group>";
@@ -67,6 +120,183 @@
 				FC8DF9DB2DEF0FF300ECBDA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC8DF9E22DEF1A8300ECBDA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA1C2DF48AE300ECBDA9 /* Navigation */,
+				FC8DF9FD2DF06C4800ECBDA9 /* Persistence */,
+				FC8DF9E32DEF1A8A00ECBDA9 /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC8DF9E32DEF1A8A00ECBDA9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9E52DEF1AA900ECBDA9 /* QuoteClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FC8DF9E72DEF1B5300ECBDA9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FC93CDA22DF5958500ACDC0F /* Insights */,
+				FC8DF9F72DF0591500ECBDA9 /* Questionnaire */,
+				FC8DF9F42DF0513900ECBDA9 /* Shared */,
+				FC8DF9E82DEF1B5D00ECBDA9 /* Quotes */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FC8DF9E82DEF1B5D00ECBDA9 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9F12DEF511A00ECBDA9 /* Views */,
+				FC8DF9EE2DEF437200ECBDA9 /* ViewModels */,
+				FC8DF9E92DEF1B6A00ECBDA9 /* Models */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		FC8DF9E92DEF1B6A00ECBDA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9EA2DEF1B9E00ECBDA9 /* QuoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC8DF9EC2DEF340A00ECBDA9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9ED2DEF343200ECBDA9 /* Debug.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FC8DF9EE2DEF437200ECBDA9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9EF2DEF438900ECBDA9 /* QuoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC8DF9F12DEF511A00ECBDA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9F22DEF527600ECBDA9 /* QuoteHorizontalScrollView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC8DF9F42DF0513900ECBDA9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9F52DF0514F00ECBDA9 /* QuickLinksHorizontalView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FC8DF9F72DF0591500ECBDA9 /* Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA092DF1492700ECBDA9 /* Model */,
+				FC8DFA032DF08A6100ECBDA9 /* ViewModel */,
+				FC8DF9F82DF0592D00ECBDA9 /* Views */,
+			);
+			path = Questionnaire;
+			sourceTree = "<group>";
+		};
+		FC8DF9F82DF0592D00ECBDA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9F92DF0594000ECBDA9 /* QuestionnaireStartScreen.swift */,
+				FC8DF9FB2DF0681900ECBDA9 /* MoodQuestionnaireScreen.swift */,
+				FC8DFA142DF2475700ECBDA9 /* AnxietyQuestionnaireScreen.swift */,
+				FC8DFA162DF2723C00ECBDA9 /* SleepQuestionnaireScreen.swift */,
+				FC8DFA182DF2BB5300ECBDA9 /* SafetyQuestionnaireScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC8DF9FD2DF06C4800ECBDA9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DF9FE2DF06C5A00ECBDA9 /* CoreDataProvider.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FC8DFA032DF08A6100ECBDA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA042DF08D3000ECBDA9 /* QuestionnaireViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC8DFA062DF08DBD00ECBDA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA072DF08DD200ECBDA9 /* Questionnaire+Extensions.swift */,
+				FC93CDAE2DF9414800ACDC0F /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC8DFA092DF1492700ECBDA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA0A2DF1493900ECBDA9 /* QuestionnaireModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC8DFA1C2DF48AE300ECBDA9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FC8DFA1D2DF48D2C00ECBDA9 /* Screens.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FC93CDA22DF5958500ACDC0F /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				FC93CDA92DF5D82400ACDC0F /* Views */,
+				FC93CDA62DF596AB00ACDC0F /* ViewModel */,
+				FC93CDA32DF595E900ACDC0F /* Model */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		FC93CDA32DF595E900ACDC0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC93CDA42DF5964000ACDC0F /* InsightsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC93CDA62DF596AB00ACDC0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC93CDA72DF596BD00ACDC0F /* InsightsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC93CDA92DF5D82400ACDC0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC93CDAA2DF5D84F00ACDC0F /* CombinedInsightsChartView.swift */,
+				FC93CDAC2DF8187300ACDC0F /* InsightsScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC93CDA12DF5847F00ACDC0F /* Launch Screen.storyboard in Resources */,
 				FC8DF9DC2DEF0FF300ECBDA9 /* Preview Assets.xcassets in Resources */,
 				FC8DF9D82DEF0FF300ECBDA9 /* Assets.xcassets in Resources */,
 			);
@@ -140,7 +371,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8DF9D62DEF0FF100ECBDA9 /* ContentView.swift in Sources */,
+				FC8DFA082DF08DD200ECBDA9 /* Questionnaire+Extensions.swift in Sources */,
+				FC8DF9F32DEF527600ECBDA9 /* QuoteHorizontalScrollView.swift in Sources */,
+				FC8DF9F02DEF438900ECBDA9 /* QuoteViewModel.swift in Sources */,
+				FC8DF9E62DEF1AA900ECBDA9 /* QuoteClient.swift in Sources */,
+				FC8DF9F62DF0514F00ECBDA9 /* QuickLinksHorizontalView.swift in Sources */,
+				FC93CDA52DF5964000ACDC0F /* InsightsModel.swift in Sources */,
+				FC8DF9FC2DF0681900ECBDA9 /* MoodQuestionnaireScreen.swift in Sources */,
+				FC8DFA052DF08D3000ECBDA9 /* QuestionnaireViewModel.swift in Sources */,
+				FC93CDAD2DF8187300ACDC0F /* InsightsScreen.swift in Sources */,
+				FC93CDAF2DF9414800ACDC0F /* Date+Extensions.swift in Sources */,
+				FC8DFA1E2DF48D2C00ECBDA9 /* Screens.swift in Sources */,
+				FC8DF9FA2DF0594000ECBDA9 /* QuestionnaireStartScreen.swift in Sources */,
+				FC93CDA82DF596BD00ACDC0F /* InsightsViewModel.swift in Sources */,
+				FC8DFA172DF2723C00ECBDA9 /* SleepQuestionnaireScreen.swift in Sources */,
+				FC8DFA152DF2475700ECBDA9 /* AnxietyQuestionnaireScreen.swift in Sources */,
+				FC8DFA022DF080C900ECBDA9 /* AppModel.xcdatamodeld in Sources */,
+				FC8DFA192DF2BB5300ECBDA9 /* SafetyQuestionnaireScreen.swift in Sources */,
+				FC8DF9EB2DEF1B9E00ECBDA9 /* QuoteModel.swift in Sources */,
+				FC93CDAB2DF5D84F00ACDC0F /* CombinedInsightsChartView.swift in Sources */,
 				FC8DF9D42DEF0FF100ECBDA9 /* HealthQuestionsApp.swift in Sources */,
+				FC8DF9FF2DF06C5A00ECBDA9 /* CoreDataProvider.swift in Sources */,
+				FC8DFA0B2DF1493900ECBDA9 /* QuestionnaireModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +401,7 @@
 /* Begin XCBuildConfiguration section */
 		FC8DF9DD2DEF0FF300ECBDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8DF9ED2DEF343200ECBDA9 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -263,7 +516,9 @@
 		};
 		FC8DF9E02DEF0FF300ECBDA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8DF9ED2DEF343200ECBDA9 /* Debug.xcconfig */;
 			buildSettings = {
+				API_URL = "https://api.api-ninjas.com/v1/quotes";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HealthQuestions/HealthQuestions.entitlements;
@@ -274,12 +529,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthQuestions/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -292,7 +549,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiunyuan.HealthQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +570,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthQuestions/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -330,7 +590,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiunyuan.HealthQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,7 +608,7 @@
 				FC8DF9DE2DEF0FF300ECBDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FC8DF9DF2DEF0FF300ECBDA9 /* Build configuration list for PBXNativeTarget "HealthQuestions" */ = {
 			isa = XCConfigurationList;
@@ -356,9 +617,22 @@
 				FC8DF9E12DEF0FF300ECBDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC8DFA002DF080C900ECBDA9 /* AppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC8DFA012DF080C900ECBDA9 /* AppModel.xcdatamodel */,
+			);
+			currentVersion = FC8DFA012DF080C900ECBDA9 /* AppModel.xcdatamodel */;
+			path = AppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FC8DF9C82DEF0FF100ECBDA9 /* Project object */;
 }

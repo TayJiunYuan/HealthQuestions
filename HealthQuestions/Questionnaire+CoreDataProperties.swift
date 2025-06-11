@@ -18,7 +18,7 @@ extension Questionnaire {
 
     @NSManaged public var anxietyLevel: Double
     @NSManaged public var anxietyOrdinal: String?
-    @NSManaged public var anxietySectionComplete: Bool
+    @NSManaged public var anxietySectionComplete: Bool?
     @NSManaged public var anxietyTrigger: String?
     @NSManaged public var dateCreated: String?
     @NSManaged public var emotions: NSObject?

@@ -16,6 +16,8 @@ class QuoteViewModel: ObservableObject {
     // [LEARNING] When a @Published property (like products) changes, any SwiftUI View observing this ViewModel will re-render automatically.
     
     @Published var quotes: [Quote] = []
+    @Published var isLoading: Bool = false
+    
     let quoteClient: QuoteClient
     
     init(quoteClient: QuoteClient) {
@@ -23,11 +25,13 @@ class QuoteViewModel: ObservableObject {
     }
     
     func fetchQuotes() async {
+        isLoading = true
         do {
             let fetchedQuotes = try await quoteClient.fetchThreeRandomQuotes()
             self.quotes = fetchedQuotes
         } catch {
             print(error) // [TODO] Maybe display error at View?
         }
+        isLoading = false
     }
 }

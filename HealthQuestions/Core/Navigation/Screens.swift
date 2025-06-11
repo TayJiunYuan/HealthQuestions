@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum AppScreen: Hashable {
+    case questionnaireStartScreen
+    case moodQuestionnaireScreen
+    case anxietyQuestionnaireScreen
+    case sleepQuestionnaireScreen
+    case safetyQuestionnaireScreen
+    case insightsScreen
+}

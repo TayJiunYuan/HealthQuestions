@@ -1,5 +1,5 @@
 //
-//  TrendsScreen.swift
+//  InsightsScreen.swift
 //  HealthQuestions
 //
 //  Created by Tay Jiun Yuan on 10/6/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct TrendsScreen: View {
+struct InsightsScreen: View {
     @ObservedObject var viewModel: InsightsViewModel
     
     @State private var selectedOption: Option = .moodRating
@@ -48,7 +48,7 @@ struct TrendsScreen: View {
             .frame(height: 300)
             .padding(.horizontal)
         }
-        .navigationTitle("Trends")
+        .navigationTitle("Insights")
         .onAppear {
             viewModel.reloadIndividualInsights(selectedOption: selectedOption, startDate: startDate, endDate: endDate)
         }

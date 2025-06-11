@@ -1,0 +1,49 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Generated files
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Ignore user-specific files
+*.moved-aside
+*.swp
+*~.nib
+*.lock
+
+# Ignore secret config files
+*.xcconfig
+
+# Ignore environment variable files if you use them
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Xcode server related
+xcuserdata/
+
+# Ignore logs
+*.log
